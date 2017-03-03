@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B8E94CD1E6984F400FD2270 /* MutableCollectionExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E94CC1E6984F400FD2270 /* MutableCollectionExt.swift */; };
+		0B8E94CF1E69916C00FD2270 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E94CE1E69916C00FD2270 /* Shakeable.swift */; };
 		0BC299861E68371E006E7E6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC299851E68371E006E7E6E /* AppDelegate.swift */; };
 		0BC2998B1E68371E006E7E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC299891E68371E006E7E6E /* Main.storyboard */; };
 		0BC2998D1E68371E006E7E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC2998C1E68371E006E7E6E /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0B8E94CC1E6984F400FD2270 /* MutableCollectionExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableCollectionExt.swift; sourceTree = "<group>"; };
+		0B8E94CE1E69916C00FD2270 /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 		0BC299821E68371E006E7E6E /* TacoPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC299851E68371E006E7E6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BC2998A1E68371E006E7E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				0BC299AD1E683B9F006E7E6E /* DropShadow.swift */,
 				0BC299C71E6864DE006E7E6E /* ReusableView.swift */,
 				0BC299CB1E686806006E7E6E /* NibLoadableView.swift */,
+				0B8E94CE1E69916C00FD2270 /* Shakeable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				0BC299AC1E6837F8006E7E6E /* MainVC.swift in Sources */,
 				0BC299C21E684F98006E7E6E /* DataService.swift in Sources */,
 				0BC299C01E6847D3006E7E6E /* Taco.swift in Sources */,
+				0B8E94CF1E69916C00FD2270 /* Shakeable.swift in Sources */,
 				0BC299BE1E684126006E7E6E /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
